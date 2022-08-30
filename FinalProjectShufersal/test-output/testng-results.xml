@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-29T21:15:37 IDT" name="Default suite" finished-at="2022-08-29T21:19:29 IDT" duration-ms="232050">
+    <groups>
+    </groups>
+    <test started-at="2022-08-29T21:15:37 IDT" name="Default test" finished-at="2022-08-29T21:19:29 IDT" duration-ms="232050">
+      <class name="AuthenticationTestSuit.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AuthenticationTestSuit.LoginTest@2453f95d]" started-at="2022-08-29T21:15:37 IDT" name="setUp" finished-at="2022-08-29T21:15:57 IDT" duration-ms="19952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="illegalEmailTest()[pri:1, instance:AuthenticationTestSuit.LoginTest@2453f95d]" started-at="2022-08-29T21:15:57 IDT" name="illegalEmailTest" description="test illegal email" finished-at="2022-08-29T21:16:24 IDT" duration-ms="26813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- illegalEmailTest -->
+        <test-method signature="succeedLoginTest()[pri:2, instance:AuthenticationTestSuit.LoginTest@2453f95d]" started-at="2022-08-29T21:16:24 IDT" name="succeedLoginTest" description="test positive login- all filled correct" finished-at="2022-08-29T21:17:01 IDT" duration-ms="36672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- succeedLoginTest -->
+        <test-method is-config="true" signature="MyTearDown()[pri:0, instance:AuthenticationTestSuit.LoginTest@2453f95d]" started-at="2022-08-29T21:17:01 IDT" name="MyTearDown" finished-at="2022-08-29T21:17:02 IDT" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTearDown -->
+      </class> <!-- AuthenticationTestSuit.LoginTest -->
+      <class name="SearchTestsSuit.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SearchTestsSuit.SearchTest@47404bea]" started-at="2022-08-29T21:18:15 IDT" name="setUp" finished-at="2022-08-29T21:18:17 IDT" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="enteringInvalidKeywordTest()[pri:1, instance:SearchTestsSuit.SearchTest@47404bea]" started-at="2022-08-29T21:18:17 IDT" name="enteringInvalidKeywordTest" description="test for search invalid keyword" finished-at="2022-08-29T21:18:42 IDT" duration-ms="24908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringInvalidKeywordTest -->
+        <test-method signature="searchResultDisplayedTest()[pri:2, instance:SearchTestsSuit.SearchTest@47404bea]" started-at="2022-08-29T21:18:42 IDT" name="searchResultDisplayedTest" description="test for search result displayed" finished-at="2022-08-29T21:18:58 IDT" duration-ms="16505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchResultDisplayedTest -->
+        <test-method is-config="true" signature="MyTearDown()[pri:0, instance:SearchTestsSuit.SearchTest@47404bea]" started-at="2022-08-29T21:18:58 IDT" name="MyTearDown" finished-at="2022-08-29T21:18:59 IDT" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTearDown -->
+      </class> <!-- SearchTestsSuit.SearchTest -->
+      <class name="ShoppingCartTestsSuit.ShoppingCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ShoppingCartTestsSuit.ShoppingCartTest@56ace400]" started-at="2022-08-29T21:17:02 IDT" name="setUp" finished-at="2022-08-29T21:17:04 IDT" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addToCartTest()[pri:1, instance:ShoppingCartTestsSuit.ShoppingCartTest@56ace400]" started-at="2022-08-29T21:17:04 IDT" name="addToCartTest" description="test if is add to cart" finished-at="2022-08-29T21:17:56 IDT" duration-ms="51600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method signature="filterSearchTest()[pri:2, instance:ShoppingCartTestsSuit.ShoppingCartTest@56ace400]" started-at="2022-08-29T21:17:56 IDT" name="filterSearchTest" description="test for filter search result" finished-at="2022-08-29T21:18:14 IDT" duration-ms="18492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterSearchTest -->
+        <test-method is-config="true" signature="MyTearDown()[pri:0, instance:ShoppingCartTestsSuit.ShoppingCartTest@56ace400]" started-at="2022-08-29T21:18:14 IDT" name="MyTearDown" finished-at="2022-08-29T21:18:15 IDT" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTearDown -->
+      </class> <!-- ShoppingCartTestsSuit.ShoppingCartTest -->
+      <class name="AuthenticationTestSuit.RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AuthenticationTestSuit.RegistrationTest@305f7627]" started-at="2022-08-29T21:18:59 IDT" name="setUp" finished-at="2022-08-29T21:19:01 IDT" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="passTooShortTest()[pri:1, instance:AuthenticationTestSuit.RegistrationTest@305f7627]" started-at="2022-08-29T21:19:01 IDT" name="passTooShortTest" description="test password too short message" finished-at="2022-08-29T21:19:11 IDT" duration-ms="9682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTooShortTest -->
+        <test-method signature="birthdayUnderEighteenTest()[pri:2, instance:AuthenticationTestSuit.RegistrationTest@305f7627]" started-at="2022-08-29T21:19:11 IDT" name="birthdayUnderEighteenTest" description="test if age under eighteen in birthday date message" finished-at="2022-08-29T21:19:18 IDT" duration-ms="7412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birthdayUnderEighteenTest -->
+        <test-method signature="illegalIdTest()[pri:3, instance:AuthenticationTestSuit.RegistrationTest@305f7627]" started-at="2022-08-29T21:19:18 IDT" name="illegalIdTest" description="test for illegal id message" finished-at="2022-08-29T21:19:23 IDT" duration-ms="5011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- illegalIdTest -->
+        <test-method signature="succeedRegistrationTest()[pri:4, instance:AuthenticationTestSuit.RegistrationTest@305f7627]" started-at="2022-08-29T21:19:23 IDT" name="succeedRegistrationTest" description="test positive registration- all filled correct" finished-at="2022-08-29T21:19:29 IDT" duration-ms="5480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- succeedRegistrationTest -->
+        <test-method is-config="true" signature="MyTearDown()[pri:0, instance:AuthenticationTestSuit.RegistrationTest@305f7627]" started-at="2022-08-29T21:19:29 IDT" name="MyTearDown" finished-at="2022-08-29T21:19:29 IDT" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTearDown -->
+      </class> <!-- AuthenticationTestSuit.RegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
