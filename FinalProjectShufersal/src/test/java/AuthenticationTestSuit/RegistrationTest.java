@@ -10,6 +10,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import Pages.RegistrationData;
+import Pages.RegistrationPage;
 import Utils.DriverUtils;
 import Utils.ExcelUtils;
 
